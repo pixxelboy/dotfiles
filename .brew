@@ -17,8 +17,16 @@ brew install findutils
 # Install Bash 4
 brew install bash
 
+# Install node.js
+brew install node
+
 # Remove outdated versions from the cellar
 brew cleanup
+
+
+# Install yeoman
+cd
+curl -L get.yeoman.io | bash
 
 # Install iTerm
 # url="https://iterm2.googlecode.com/files/iTerm2_v1_0_0.zip"
@@ -29,16 +37,15 @@ brew cleanup
 # unzip -q "${download_dir}/${zip}" -d /Applications/
 # rm -rf "$download_dir"
 
-# Install Total Terminal -previously known as Visor- http://totalterminal.binaryage.com/
-# cd
-# git clone --recursive git@github.com:binaryage/totalterminal.git totalterminal
-# cd totalterminal
-# xcodebuild -workspace TotalTerminal.xcworkspace -scheme "TotalTerminal Package"
+# Install Total Terminal
+# git clone git@github.com:binaryage/totalterminal.git
 
+# Install Monghub
+# git clone git://github.com/bububa/MongoHub-Mac.git
 
 # Install MacVim
-# cd
 # git clone git://github.com/b4winckler/macvim.git
+
 
 cd
 git clone git://github.com/sstephenson/rbenv.git .rbenv
