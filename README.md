@@ -1,6 +1,9 @@
-# Roderik's dotfiles
+# My dotfiles, based on Roderik's dotfiles
 
 This is a fork of Mathias’s dotfiles customised for my use.
+Oh my, a fork of a fork ...
+
+These dotfiles are fantastic, but basically, I felt the urge to tweak them a bit to fit my needs.
 
 ## Installation
 
